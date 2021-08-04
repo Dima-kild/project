@@ -38,7 +38,7 @@
                         <a class="nav-link active" aria-current="page" href="index.jsp">Домой</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О Нас</a>
+                        <a class="nav-link" href="aboutUs.jsp">О Нас</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="info.jsp">Разработчики</a>

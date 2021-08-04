@@ -9,12 +9,8 @@
 </head>
 <body>
 
-
-
 </body>
 </html>
-
-
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
@@ -72,7 +68,8 @@
 </header>
 
 <br>
-<table class="table" style="max-width: 500px">
+
+<table align="center" class="table" style="max-width: 500px" >
     <thead>
     <tr>
         <th scope="col">Наименование товара</th>

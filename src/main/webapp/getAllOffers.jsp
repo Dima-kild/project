@@ -89,7 +89,7 @@
 </header>
 
 <br>
-<table class="table" style="max-width: 500px">
+<table align="center" class="table" style="max-width: 500px">
     <thead>
     <tr>
         <th scope="col">Наименование товара</th>

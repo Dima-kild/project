@@ -33,9 +33,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.jsp">Домой</a>
                     </li>
-<%--                    <li class="nav-item">--%>
-<%--                        <a class="nav-link" href="#">О Нас</a>--%>
-<%--                    </li>--%>
+                    <%--                    <li class="nav-item">--%>
+                    <%--                        <a class="nav-link" href="#">О Нас</a>--%>
+                    <%--                    </li>--%>
                     <li class="nav-item">
                         <a class="nav-link" href="info.jsp">Разработчики</a>
                     </li>
@@ -49,51 +49,53 @@
 </header>
 <div class="login-block">
     <div class="login-block">
-        <div class="login-block">
-            <h1>Пару слов о вас</h1>
-            <form action="/addUser" method="POST">
-                <div class="form-group">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
-                        <input name="companyName" class="form-control" placeholder="Имя компании">
-                    </div>
-                </div>
-
-                <hr class="hr-xs">
-
-                <div class="form-group">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
-                        <input type="password" name="password" class="form-control" placeholder="Ваш пароль">
+        <div class="login-block" style="max-width: 600px; margin: 0 auto">
+            <div>
+                <h1>Пару слов о вас</h1>
+                <form action="/addUser" method="POST">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
+                            <input name="companyName" class="form-control" placeholder="Имя компании">
+                        </div>
                     </div>
 
-                </div>
-                <hr class="hr-xs">
-                <div class="form-group">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
-                        <input name="email" class="form-control" placeholder="Ваш Email">
+                    <hr class="hr-xs">
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                            <input type="password" name="password" class="form-control" placeholder="Ваш пароль">
+                        </div>
+
                     </div>
-                </div>
-
-                <hr class="hr-xs">
-                <div class="form-group">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
-                        <input name="phoneNumber" class="form-control" placeholder="Номер телефона">
+                    <hr class="hr-xs">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                            <input name="email" class="form-control" placeholder="Ваш Email">
+                        </div>
                     </div>
-                </div>
 
-                <hr class="hr-xs">
-                <div class="form-group">
-                    <select name="role" class="form-select">
-                        <option value="RESTAURANT">Ресторан</option>
-                        <option value="SUPPLIER">Поставщик</option>
-                    </select>
-                </div>
+                    <hr class="hr-xs">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock ti-unlock"></i></span>
+                            <input name="phoneNumber" class="form-control" placeholder="Номер телефона">
+                        </div>
+                    </div>
 
-                <button class="btn btn-primary btn-block" type="submit">Регистрация</button>
-            </form>
+                    <hr class="hr-xs">
+                    <div class="form-group">
+                        <select name="role" class="form-select">
+                            <option value="RESTAURANT">Ресторан</option>
+                            <option value="SUPPLIER">Поставщик</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary btn-block" type="submit">Регистрация</button>
+                </form>
+            </div>
         </div>
     </div>
 </div>

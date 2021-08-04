@@ -39,7 +39,7 @@
                         <a class="nav-link active" aria-current="page" href="index.jsp">Домой</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О Нас</a>
+                        <a class="nav-link" href="aboutUs.jsp">О Нас</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="info.jsp">Разработчики</a>
@@ -88,7 +88,7 @@
     <div class="hero-text">
         <h1><b>IPRIVEZ</b></h1>
         <br>
-        <button type="button" style="width:400px"  class="btn btn-dark">Как это работает? </button>
+        <a href="/aboutUs.jsp"><button type="button" style="width:400px"  class="btn btn-dark">Как это работает? </button></a>
 
     </div>
 </div>

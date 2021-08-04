@@ -9,10 +9,10 @@
 <html>
 <head>
     <title>Title</title>
-
 </head>
 <body>
-<h1>DRIVER</h1>
+
+<h1>ADMIN</h1>
 <a href="/HomeFrontController.jsp">back</a>
 </body>
 </html>

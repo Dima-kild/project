@@ -52,12 +52,12 @@
 
 <div class="login-block">
     <div class="login-block">
-        <div class="login-block">
+        <div class="login-block" style="max-width: 600px; margin: 0 auto">
 
             <h1>Введите данные для входа...</h1>
             <form action="/logInServlet" method="POST">
                 <div class="form-group">
-                    <div class="input-group">
+                    <div class="input-group" >
                         <span class="input-group-addon"><i class="fa fa-user ti-user"></i></span>
                         <input name="companyName" class="form-control" placeholder="Имя компании">
                     </div>
